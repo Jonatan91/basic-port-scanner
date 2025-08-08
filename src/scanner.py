@@ -1,5 +1,10 @@
 import socket
 
+"""
+Scanner module: functions to scan a single TCP port and a range of ports.
+All functions return simple Python types, suitable for CLI usage.
+"""
+
 def scan_single_port(ip, port):
     """
     Scans a single TCP port on a given IP address.
