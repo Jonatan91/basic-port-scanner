@@ -23,6 +23,18 @@ python3 src/main.py <IP> <PORT>
 # Example
 python3 src/main.py 127.0.0.1 80
 ```
+## New CLI (argparse)
+```bash
+# Single port
+python3 src/main.py --ip 127.0.0.1 --port 80
+
+# Range (inclusive)
+python3 src/main.py --ip 127.0.0.1 --range 20 100
+
+# Help
+python3 src/main.py -h
+```
+
 ---
 
 ## Example Output
